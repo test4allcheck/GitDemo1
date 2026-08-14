@@ -1,0 +1,43 @@
+
+public class CoreJavaBrushup1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num = 5;
+		String name = "Rahul Awachar";
+		char letter = 'r';
+		double dec = 5.99;
+		boolean myCard = true;
+		
+		System.out.println(num + " is the value stored in the myNum variable");
+		System.out.println(name);
+		
+		//Array
+		int [] arr = new int [5];
+		arr[0] = 1; 
+		arr[1] = 2;
+		arr[2] = 3;
+		arr[3] = 5;
+		arr[4] = 6;
+		
+		int [] arr2 = {1,2,3,4,5,6,7,8,9,10};
+		System.out.println(arr2[2]);
+		
+		for(int i=0; i<arr2.length; i++)
+		{
+			System.out.println(arr2[i]);
+		}
+		
+		String [] myname = {"rahul", "awachar", "selenium"};
+		for(int i=0; i<myname.length; i++)
+		{
+			System.out.println(myname[i]);
+		}
+		
+		for(String s: myname)
+		{
+			System.out.println(s);
+		}
+	}
+
+}
