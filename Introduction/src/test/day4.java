@@ -14,7 +14,14 @@ public class day4 {
 		//selenium
 		System.out.println("webloginhomePersonalLoan");
 		System.out.println(uname);
+		System.out.println("N1");
+		System.out.println("N2");
+		System.out.println("N3");
 		
+		System.out.println("N4");
+		System.out.println("N5");
+		System.out.println("N6");
+	
 	}
 	
 	
