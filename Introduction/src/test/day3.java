@@ -49,6 +49,21 @@ public void befoclas()
 		//Appium
 		System.out.println("Mobilelogincar");
 	}
+	
+	@Test(groups={"Architech"})
+	public void MobileLogincarLoan1()
+	{
+		//Appium
+		System.out.println("Mobilelogincar");
+	}
+	
+	@Test(groups={"Architech"})
+	public void MobileLogincarLoan2()
+	{
+		//Appium
+		System.out.println("Mobilelogincar");
+	}
+	
 	@BeforeSuite
 	public void Bfsuite()
 	{
